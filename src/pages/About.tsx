@@ -13,7 +13,7 @@ const About = () => {
             About Altyn
           </h1>
           <p className="text-2xl text-gold-700 font-medium mb-8">
-            "At Altyn, we craft more than jewelry — we create moments of timeless beauty."
+            "Where gold speaks and diamonds remember — Altyn turns moments into masterpieces."
           </p>
         </div>
 

@@ -49,7 +49,7 @@ const Index = () => {
             <span className="gold-gradient bg-clip-text text-transparent">Speaks Luxury</span>
           </h1>
           <p className="text-xl sm:text-2xl mb-8 fade-in opacity-90 max-w-2xl mx-auto">
-            At Altyn, we craft more than jewelry — we create moments of timeless beauty.
+          Where gold speaks and diamonds remember — Altyn turns moments into masterpieces.
           </p>
           <Link to="/shop">
             <Button size="lg" className="gold-gradient text-white px-10 py-6 text-lg font-semibold fade-in hover-scale shine-effect luxury-shadow">
@@ -67,7 +67,7 @@ const Index = () => {
               Best Sellers
             </h2>
             <p className="text-lg text-charcoal-600 max-w-2xl mx-auto">
-              Our most cherished pieces, beloved by customers worldwide for their exceptional beauty and craftsmanship.
+            Jewels that have captured hearts across the world.
             </p>
           </div>
           
@@ -113,7 +113,7 @@ const Index = () => {
           </h2>
           <div className="prose prose-lg mx-auto">
             <p className="text-xl text-gold-700 leading-relaxed mb-8 font-medium">
-              "At Altyn, we craft more than jewelry — we create moments of timeless beauty."
+              "Where gold speaks and diamonds remember — Altyn turns moments into masterpieces. "
             </p>
             <p className="text-lg text-charcoal-600 leading-relaxed mb-8">
               Founded with a passion for exceptional craftsmanship, Altyn creates jewelry that captures 

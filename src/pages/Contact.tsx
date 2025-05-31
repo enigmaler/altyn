@@ -66,7 +66,8 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="mt-1"
+                    className="mt-1 bg-gray-50 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gold-500"
+
                   />
                 </div>
                 <div>
@@ -78,7 +79,8 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="mt-1"
+                    className="mt-1 bg-gray-50 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gold-500"
+
                   />
                 </div>
                 <div>
@@ -89,7 +91,8 @@ const Contact = () => {
                     value={formData.subject}
                     onChange={handleInputChange}
                     required
-                    className="mt-1"
+                    className="mt-1 bg-gray-50 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gold-500"
+
                   />
                 </div>
                 <div>
@@ -100,7 +103,8 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleInputChange}
                     required
-                    className="mt-1"
+                    className="mt-1 bg-gray-50 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gold-500"
+
                     rows={5}
                   />
                 </div>
@@ -118,44 +122,59 @@ const Contact = () => {
                 <CardTitle className="font-playfair text-2xl">Get in Touch</CardTitle>
               </CardHeader>
               <CardContent className="space-y-6">
-                <div className="flex items-start space-x-4">
+                
+
+
+              <div className="flex items-start space-x-4">
                   <Mail className="w-6 h-6 text-gold-600 mt-1" />
                   <div>
-                    <h3 className="font-semibold">Email</h3>
-                    <p className="text-muted-foreground">hello@lustreandlight.com</p>
-                    <p className="text-muted-foreground">orders@lustreandlight.com</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <Phone className="w-6 h-6 text-gold-600 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Phone</h3>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                    <p className="text-muted-foreground">Customer Service: +1 (555) 987-6543</p>
-                  </div>
-                </div>
-                <div className="flex items-start space-x-4">
-                  <MapPin className="w-6 h-6 text-gold-600 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Address</h3>
-                    <p className="text-muted-foreground">
-                      123 Jewelry District<br />
-                      New York, NY 10001<br />
-                      United States
+                    <h3 className="font-semibold text-black">Email</h3>
+                    <p>
+                      <a href="mailto:hello@lustreandlight.com" className="text-gray-800 hover:underline">
+                        Iguanaorland@gmail.com
+                      </a>
                     </p>
+                    
                   </div>
                 </div>
+
                 <div className="flex items-start space-x-4">
-                  <Clock className="w-6 h-6 text-gold-600 mt-1" />
-                  <div>
-                    <h3 className="font-semibold">Business Hours</h3>
-                    <p className="text-muted-foreground">
-                      Monday - Friday: 9:00 AM - 6:00 PM<br />
-                      Saturday: 10:00 AM - 4:00 PM<br />
-                      Sunday: Closed
-                    </p>
-                  </div>
-                </div>
+  <Phone className="w-6 h-6 text-gold-600 mt-1" />
+  <div>
+    <h3 className="font-semibold text-black">Phone</h3>
+    <p>
+      <a href="tel:+15551234567" className="text-gray-800 hover:underline">
+      +1 (708) 460-7622
+      </a>
+    </p>
+    
+  </div>
+  </div>
+
+
+<div className="flex items-start space-x-4">
+  <MapPin className="w-6 h-6 text-gold-600 mt-1" />
+  <div>
+    <h3 className="font-semibold text-black">Address</h3>
+    <p className="text-gray-800">
+      288 Orland Square dr<br />
+      Chicago, Il 60462<br />
+      United States
+    </p>
+  </div>
+</div>
+
+<div className="flex items-start space-x-4">
+  <Clock className="w-6 h-6 text-gold-600 mt-1" />
+  <div>
+    <h3 className="font-semibold text-black">Business Hours</h3>
+    <p className="text-gray-800">
+      Monday - Thursday: 10:00 AM - 6:00 PM<br/>
+      Friday - Saturday: 10:00 AM - 9:00 PM<br/>
+    </p>
+  </div>
+</div>
+
               </CardContent>
             </Card>
           </div>
