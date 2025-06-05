@@ -1,5 +1,5 @@
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -60,8 +60,13 @@ const Checkout = () => {
     });
   };
 
+  useEffect(() => {
+    if (items.length === 0) {
+      navigate('/cart');
+    }
+  }, [items, navigate]);
+
   if (items.length === 0) {
-    navigate('/cart');
     return null;
   }
 
